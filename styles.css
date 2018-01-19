@@ -1,0 +1,9 @@
+/* add your CSS here */
+#animalFact {
+	font-style: italic;
+}
+
+.favAnimalItem {
+	font-weight: bold;
+	list-style-type: none;
+}
