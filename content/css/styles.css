@@ -1,8 +1,33 @@
-/* add your CSS here */
+/* Styles all HTML for Trading Cards Page*/
+
+
+
+/* 
+----------->		Global styles
+*/
 * {
     box-sizing: border-box;
 }
 
+
+
+/*
+----------->		Animal Card Container 
+*/
+#main-content {
+    border-radius: 1%;
+    border: 0.002px solid #823;
+    padding: 10px;
+    width: 520px;
+    box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.70);
+    margin: 0 auto;
+}
+
+
+
+/*
+----------->		Animal Title and Image Section
+*/
 header {
     border-radius: 1%;
     text-align: center;
@@ -12,22 +37,28 @@ header {
     color: #333;
 }
 
+
+
+#animal-thumb {
+    /* border: .5px solid #999; */
+    border-radius: 1%;
+    /* box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25); */
+    box-shadow: 1px 21px 48px rgba(58, 55, 106, 0.85);
+	width: 300px;
+}
+
+
+
+/*
+----------->		Animal Details Section
+*/
 ul {
     list-style-type: none;
     margin: 10px 5px;
     padding: 0;
 }
 
-#mainContent {
-    border-radius: 1%;
-    border: 0.002px solid #823;
-    padding: 10px;
-    width: 320px;
-    box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.70);
-    margin: 0 auto;
-}
-
-#subContent {
+#sub-content {
     border-radius: 1%;
     border: 0.002px solid #999;
     padding: 10px;
@@ -35,20 +66,20 @@ ul {
     box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25);
 }
 
-#animalFact {
+#animal-fact {
     font-style: italic;
     text-align: left;
 }
 
-#animalThumb {
-    /* border: .5px solid #999; */
-    border-radius: 1%;
-    /* box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25); */
-    box-shadow: 1px 21px 48px rgba(58, 55, 106, 0.85);
-}
-
-
-.favAnimalItem {
+.fav-animal-item {
     font-weight: bold;
 }
+
+
+
+/*
+----------->		Miscellaneous
+*/
+
+
 
