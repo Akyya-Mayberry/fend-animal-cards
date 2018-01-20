@@ -3,31 +3,52 @@
     box-sizing: border-box;
 }
 
-#mainContent {
-	border: 1px solid black;
-	padding: 10px;
-	width: 320px;
-}
-
-#subContent {
-	border: 1px solid black;
-	padding: 10px;
-	text-align: left;
-}
-
-#animalFact {
-	font-style: italic;
-}
-
 header {
-text-align: left;
+    border-radius: 1%;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 ul {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    margin: 10px 5px;
+    padding: 0;
 }
 
-.favAnimalItem {
-	font-weight: bold;
+#mainContent {
+    border-radius: 1%;
+    border: 0.002px solid #823;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.70);
+    margin: 0 auto;
 }
+
+#subContent {
+    border-radius: 1%;
+    border: 0.002px solid #999;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25);
+}
+
+#animalFact {
+    font-style: italic;
+    text-align: left;
+}
+
+#animalThumb {
+    /* border: .5px solid #999; */
+    border-radius: 1%;
+    /* box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25); */
+    box-shadow: 1px 21px 48px rgba(58, 55, 106, 0.85);
+}
+
+
+.favAnimalItem {
+    font-weight: bold;
+}
+
