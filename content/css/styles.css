@@ -1,67 +1,65 @@
 /* Styles all HTML for Trading Cards Page*/
 
 
-
 /*
------------>		Global/Shared Styles
+ Global/Shared Styles
 */
 * {
     box-sizing: border-box;
 }
 
+
 body {
 	font-family: 'Montserrat', Helvetica, sans-serif;
 	font-weight: 200;
+    /*background-color: rgba(58, 55, 106, 0.70);*/
+    background-color: #fff;
+    color: #666;
 }
 
-
-
 /*
------------>		Animal Card Container
+ Animal Card Container
 */
-#card-container {
+.card-container {
     border-radius: 1%;
-    border: 0.002px solid #823;
-    padding: 10px;
-    width: 520px;
+    border: 1px solid #666;
+    width: 420px;
     box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.70);
-    margin: 0 auto;
-	background-color: #f0fbff;
+    margin: 50px auto 20px auto;
 }
 
-
-
 /*
------------>		Animal Title and Image Section
+ Animal Title and Image Section
 */
 header {
     border-radius: 1%;
     text-align: center;
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     color: #333;
 }
 
+
 .animal-name {
-	text-shadow: 10px 4px 5px #eee;
-	color: #333;
-	text-transform: uppercase;
+    color: #a04000;
+    color: #b03a2e;
 	font-weight: 200;
+    margin-left: 10px;
+    padding-top: 15px;
 }
 
-#animal-thumb {
+
+.animal-thumb {
     /* border: .5px solid #999; */
     border-radius: 1%;
-    /* box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25); */
-    box-shadow: 1px 21px 48px rgba(58, 55, 106, 0.85);
+    box-shadow: 1px 21px 48px rgba(58, 55, 106, 0.55);
 	width: 300px;
+    opacity: 0.73;
 }
-
 
 
 /*
------------>		Animal Details Section
+ Animal Details Section
 */
 ul {
     list-style-type: none;
@@ -69,33 +67,27 @@ ul {
     padding: 0;
 }
 
-#animal-details {
+
+.animal-details {
     border-radius: 1%;
     border: 0.002px solid #999;
     text-align: left;
     box-shadow: 1px 1px 18px rgba(58, 55, 106, 0.25);
-    /*width: 100%;*/
-    margin: 10px;
-    padding: 15px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
 }
 
-#animal-fact {
+
+.animal-fact {
     font-style: italic;
     text-align: left;
-	font-weight: bold;
-	color: #555;
+	color: #666;
 }
+
 
 .fav-animal-item {
     font-weight: bold;
-	color: #444;
+	color: #666;
 }
-
-
-
-/*
------------>		Miscellaneous
-*/
-
 
 
